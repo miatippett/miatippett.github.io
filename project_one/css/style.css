@@ -34,12 +34,16 @@ li a:hover {
     background-color: steelblue;
 }
 
+
+/* looked at w3schools for some info on nav bar */
+
 p {
     font-size: 16px;
 }
 
-
-/* looked at w3schools for this */
+.active {
+    background: lightcoral;
+}
 
 .container {
     position: relative;
