@@ -69,11 +69,27 @@ h1 {
     }
 }
 
-footer {
+
+/* footer {
     text-align: center;
     padding: 3px;
     background: #ffe2e0;
     color: black;
+} */
+
+footer {
+    align-items: center;
+    background-color: #ffe2e0;
+    bottom: 0;
+    color: #666666;
+    display: flex;
+    font-size: 5em;
+    height: 100px;
+    justify-content: center;
+    position: fixed;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 1;
 }
 
 .title {
@@ -140,6 +156,7 @@ header {
     padding-left: 40px;
     background-color: #ffeeed;
     color: black;
+    padding-top: 10px;
 }
 
 nav {
@@ -148,7 +165,7 @@ nav {
     width: 70%;
     padding: 33px 40px;
     background-color: #ffeeed;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 nav a {
@@ -177,7 +194,7 @@ nav a:hover {
 }
 
 
-/* glow */
+/* w3schools */
 
 .glow {
     font-size: 80px;
