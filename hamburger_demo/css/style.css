@@ -130,3 +130,18 @@ body {
         border-bottom: 1px solid #444;
     }
 }
+
+footer {
+    align-items: center;
+    background-color: #262626;
+    bottom: 0;
+    color: #666666;
+    display: flex;
+    font-size: 2em;
+    height: 200px;
+    justify-content: center;
+    position: fixed;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 1;
+}
