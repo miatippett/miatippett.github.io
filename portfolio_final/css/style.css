@@ -377,7 +377,7 @@ input[type=submit]:hover {
 /* go to top button */
 
 #myBtn {
-    display: none;
+    /* display: contents; */
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -385,8 +385,8 @@ input[type=submit]:hover {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
-    color: white;
+    background-color: black;
+    color: #ffe2e0;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
