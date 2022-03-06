@@ -395,3 +395,37 @@ input[type=submit]:hover {
 #myBtn:hover {
     background-color: #555;
 }
+
+
+/* pricing page */
+
+.columnPrice {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+.rowPrice:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* photos page */
+
+.columnPhoto {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+
+.rowPhoto::after {
+    content: "";
+    clear: both;
+    display: table;
+}
