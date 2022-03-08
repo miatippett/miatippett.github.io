@@ -11,24 +11,6 @@ ul {
     text-decoration: none;
 }
 
-
-/*
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #ffe2e0;
-} */
-
 h1 {
     font-size: 50px;
     text-align: center;
@@ -70,14 +52,6 @@ h1 {
         width: 100%;
     }
 }
-
-
-/* footer {
-    text-align: center;
-    padding: 3px;
-    background: #ffe2e0;
-    color: black;
-} */
 
 footer {
     align-items: center;
@@ -177,11 +151,6 @@ nav a {
     background-color: #ffeeed;
     color: black;
 }
-
-
-/* nav a:hover {
-    font-weight: bold;
-} */
 
 a:link {
     text-decoration: none;
@@ -403,7 +372,7 @@ input[type=submit]:hover {
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 300px;
+    height: 38%;
 }
 
 .rowPrice:after {
